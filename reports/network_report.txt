@@ -1,0 +1,82 @@
+============================================
+          HOME WIFI NETWORK REPORT
+============================================
+
+ANALYSIS SUMMARY
+--------------------------------------------
+Total Events: 18
+Network Errors: 3
+Warnings: 2
+Error Rate: 16.67%
+
+LOG VALIDATION
+--------------------------------------------
+Malformed Entries: 2
+Invalid Timestamps: 2
+
+CLIENTS DETECTED
+--------------------------------------------
+192.168.1.10
+192.168.1.15
+192.168.1.22
+192.168.1.30
+
+CLIENT ACTIVITY
+--------------------------------------------
+192.168.1.10: 1 connection event(s), 0 disconnection event(s)
+192.168.1.15: 2 connection event(s), 0 disconnection event(s)
+192.168.1.22: 1 connection event(s), 0 disconnection event(s)
+192.168.1.30: 1 connection event(s), 0 disconnection event(s)
+
+ERROR BREAKDOWN
+--------------------------------------------
+DHCP: 1
+DNS: 1
+Authentication: 1
+
+ERROR DETAILS
+--------------------------------------------
+Log line: 6
+Time: 2026-10-06 08:05:33
+Category: DHCP
+Message: 2026-10-06 08:05:33 ERROR DHCP lease request failed for 192.168.1.22
+Suggested next step: Check DHCP service status, address pool availability, and client lease configuration.
+
+Log line: 9
+Time: 2026-10-06 08:08:45
+Category: DNS
+Message: 2026-10-06 08:08:45 ERROR DNS resolution failed for example.com
+Suggested next step: Check DNS server settings, name resolution, and network connectivity.
+
+Log line: 13
+Time: 2026-10-06 08:12:36
+Category: Authentication
+Message: 2026-10-06 08:12:36 ERROR Authentication failed for 192.168.1.15
+Suggested next step: Review authentication logs, credentials, and wireless security settings.
+
+AUTHENTICATION AUDIT
+--------------------------------------------
+Alert threshold: 3 failed attempts per IP
+192.168.1.15: 1 failed authentication event(s)
+
+No IP addresses reached the alert threshold.
+
+HOURLY TRAFFIC ANALYSIS
+--------------------------------------------
+Average Events Per Hour: 16.00
+Spike Threshold: 1.5x comparison median
+Minimum Events for Spike Alert: 5
+2026-10-06 08:00: 16 events
+
+TRAFFIC SPIKE ALERTS
+--------------------------------------------
+No traffic spikes detected, or insufficient comparison data was available.
+
+ACTIVITY TREND ANALYSIS
+--------------------------------------------
+Trend: Insufficient data
+
+Analysis Start: 2026-10-06 08:01:22
+Analysis End: 2026-10-06 08:16:09
+
+============================================

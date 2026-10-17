@@ -1,0 +1,65 @@
+============================================
+          HOME WIFI NETWORK REPORT
+============================================
+
+ANALYSIS SUMMARY
+--------------------------------------------
+Total Events: 24
+Network Errors: 0
+Warnings: 0
+Error Rate: 0.00%
+
+LOG VALIDATION
+--------------------------------------------
+Malformed Entries: 0
+Invalid Timestamps: 0
+
+CLIENTS DETECTED
+--------------------------------------------
+192.168.1.10
+
+CLIENT ACTIVITY
+--------------------------------------------
+192.168.1.10: 24 connection event(s), 0 disconnection event(s)
+
+ERROR BREAKDOWN
+--------------------------------------------
+No errors detected.
+
+ERROR DETAILS
+--------------------------------------------
+No errors require investigation.
+AUTHENTICATION AUDIT
+--------------------------------------------
+Alert threshold: 3 failed attempts per IP
+No identifiable authentication failures detected.
+
+No IP addresses reached the alert threshold.
+
+HOURLY TRAFFIC ANALYSIS
+--------------------------------------------
+Average Events Per Hour: 4.00
+Spike Threshold: 1.5x comparison median
+Minimum Events for Spike Alert: 5
+2026-10-06 08:00: 2 events
+2026-10-06 09:00: 3 events
+2026-10-06 10:00: 2 events
+2026-10-06 11:00: 12 events
+2026-10-06 12:00: 3 events
+2026-10-06 13:00: 2 events
+
+TRAFFIC SPIKE ALERTS
+--------------------------------------------
+ALERT: 2026-10-06 11:00 - 12 events (comparison median: 2.00)
+
+ACTIVITY TREND ANALYSIS
+--------------------------------------------
+Trend: Increasing
+First-period average: 2.33 events per hour
+Second-period average: 5.67 events per hour
+Activity change: 142.86%
+
+Analysis Start: 2026-10-06 08:00:00
+Analysis End: 2026-10-06 13:01:00
+
+============================================
